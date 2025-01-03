@@ -51,13 +51,12 @@
 
 						<replicas>1</replicas>
 
-						<connectedAppClientId>37339a383c82419ca593441852626dea</connectedAppClientId>
-
-						<connectedAppClientSecret>270aa9f765F34B43bfA756224023Ce0D</connectedAppClientSecret>
-
-						<connectedAppGrantType>client_credentials
-						</connectedAppGrantType>
-
+						<connectedAppClientId>${mule.connectedAppClientId}</connectedAppClientId>
+															
+						<connectedAppClientSecret>${mule.connectedAppClientSecret}</connectedAppClientSecret>
+															
+						<connectedAppGrantType>${mule.grantType}</connectedAppGrantType>
+ 
 						<vCores>0.1</vCores>
 
 						<deploymentSettings>
